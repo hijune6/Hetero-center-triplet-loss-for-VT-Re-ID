@@ -1,7 +1,7 @@
 # Parameters Sharing Exploration and Hetero center triplet loss for VT Re-ID
 Pytorch code for "Parameters Sharing Exploration and Hetero-Center Triplet Loss for Visible-Thermal Person Re-Identification"[(arxiv)](https://arxiv.org/abs/2008.06223).
 
-### Highlight
+### Highlights
 - We achieve the state-of-the-art performance on two datasets by large margins, which can be a strong VT Re-ID baseline to boost the future research with high quality.
 - We explore the parameters sharing problem in the twostream network. To the best of our knowledge, it is the first attempt to analyze the impact of the number of parameters sharing for cross-modality feature learning.
 - We propose the hetero-center triplet loss to constrain the distance of different class centers from both the same modality and cross modality.
