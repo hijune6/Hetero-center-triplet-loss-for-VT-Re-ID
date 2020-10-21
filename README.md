@@ -1,4 +1,4 @@
-# Hetero-center-triplet-loss-for-VT-Re-ID
+# Parameters Sharing Exploration and Hetero center triplet loss for VT Re-ID
 Pytorch code for "Parameters Sharing Exploration and Hetero-Center Triplet Loss for Visible-Thermal Person Re-Identification"[(arxiv)](https://arxiv.org/abs/2008.06223).
 
 ### Highlight
