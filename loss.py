@@ -8,6 +8,8 @@ from torch.autograd import Variable
 
 class CenterTripletLoss(nn.Module):
     """ Hetero-center-triplet-loss-for-VT-Re-ID
+   "Parameters Sharing Exploration and Hetero-Center Triplet Loss for Visible-Thermal Person Re-Identification"
+   [(arxiv)](https://arxiv.org/abs/2008.06223).
     
     Args:
     - margin (float): margin for triplet.
