@@ -3,17 +3,18 @@ Pytorch code for "Parameters Sharing Exploration and Hetero-Center Triplet Loss 
 
 ### Highlights
 - We achieve the state-of-the-art performance on two datasets by large margins, which can be a strong VT Re-ID baseline to boost the future research with high quality.
-- We explore the parameters sharing problem in the twostream network. To the best of our knowledge, it is the first attempt to analyze the impact of the number of parameters sharing for cross-modality feature learning.
+- We explore the parameters sharing problem in the two stream network. To the best of our knowledge, it is the first attempt to analyze the impact of the number of parameters sharing for cross-modality feature learning.
 - We propose the hetero-center triplet loss to constrain the distance of different class centers from both the same modality and cross modality.
 
 ### Results
 Dataset | Rank1  | mAP | mINP
  ---- | ----- | ------  | -----
- SYSU-MM01  | ~61.68% | ~57.51% | ~39.54%
  RegDB | ~91.05% | ~83.28%  | ~68.84%
+ SYSU-MM01  | ~61.68% | ~57.51% | ~39.54%
+ 
 
 ### Usage
-Our code extends the pytorch implementation of AGW paper in [Github](https://github.com/mangye16/Cross-Modal-Re-ID-baseline). Please refer to the offical repo for details of data preparation.
+Our code extends the pytorch implementation of Cross-Modal-Re-ID-baseline in [Github](https://github.com/mangye16/Cross-Modal-Re-ID-baseline). Please refer to the offical repo for details of data preparation.
 
 ### Training
 Train a model by
