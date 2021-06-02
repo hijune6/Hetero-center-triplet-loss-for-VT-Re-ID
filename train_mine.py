@@ -215,7 +215,7 @@ if len(args.resume) > 0:
         print('==> no checkpoint found at {}'.format(args.resume))
 
 # define loss function
-if args.label_smooth == 'on':
+if args.label_smooth == 'off':
     criterion_id = nn.CrossEntropyLoss()
 else:
     criterion_id = CrossEntropyLabelSmooth(n_class)
