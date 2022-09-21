@@ -1,5 +1,5 @@
 # Parameter Sharing Exploration and Hetero center triplet loss for VT Re-ID
-Pytorch code for "Parameter Sharing Exploration and Hetero-Center Triplet Loss for Visible-Thermal Person Re-Identification"[(arxiv)](https://arxiv.org/abs/2008.06223).
+Pytorch code for "Parameter Sharing Exploration and Hetero-Center Triplet Loss for Visible-Thermal Person Re-Identification".
 
 ### Highlights
 - We achieve the state-of-the-art performance on two datasets by large margins, which can be a strong VT Re-ID baseline to boost the future research with high quality.
@@ -48,6 +48,16 @@ Please kindly cite the following paper in your publications if it helps your res
   pages={653--657},
   year={2021},
   publisher={IEEE}
+}
+```
+```
+@article{Tan2022AFS,
+  title={A Fourier-Based Semantic Augmentation for Visible-Thermal Person Re-Identification},
+  author={Xiaoheng Tan and Yanxia Chai and Fenglei Chen and Haijun Liu},
+  journal={IEEE Signal Processing Letters},
+  year={2022},
+  volume={29},
+  pages={1684-1688}
 }
 ```
 
